@@ -1,0 +1,32 @@
+@media (max-width: 991.98px) {
+  header .size--logo--width {
+    width: 180px !important;
+  }
+  header .size--logo--height {
+    height: 110px !important;
+  }
+  header .size--buttons--width {
+    width: 180px;
+  }
+  header .size--menu--height {
+    height: 110px;
+  }
+  header .bg--white {
+    background: white !important;
+  }
+}
+@media (min-width: 992px) {
+  header .size--logo--width {
+    width: 180px !important;
+  }
+  header .size--logo--height {
+    height: 110px !important;
+  }
+  header .size--menu--width {
+    width: 180px;
+  }
+  header .size--sidecol {
+    width: 180px !important;
+    min-width: 180px !important;
+  }
+}
