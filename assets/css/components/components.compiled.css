@@ -11,7 +11,7 @@ header .accordion .accordion-body:before, header .accordion .accordion-body:afte
 }
 header .accordion .accordion-body:before {
   left: 0;
-  background: #f2f2f2;
+  background: #f8f9fa;
 }
 header .accordion .accordion-body:after {
   right: 0;
@@ -22,12 +22,16 @@ header .accordion .accordion-body > .accordion--content {
   position: relative;
 }
 header .accordion .accordion-body > .accordion--content > div > .row > div:first-child {
-  background: #f2f2f2;
+  background: #f8f9fa;
 }
 header .accordion .accordion-body > .accordion--content > div > .row > div:first-child + div {
   background: #fff;
 }
 header .accordion .accordion-body > .accordion--content > div > .row > div:first-child + div a {
+  white-space: normal;
+}
+
+footer a {
   white-space: normal;
 }
 
